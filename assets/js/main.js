@@ -85,7 +85,8 @@
 
 			// Disable parallax on ..
 				if (browser.name == 'ie'			// IE
-				||	browser.name == 'edge'			// Edge
+				||	browser.name == 'edge'
+				||  browser.name == 'chrome'			// Edge
 				||	window.devicePixelRatio > 1		// Retina/HiDPI (= poor performance)
 				||	browser.mobile)					// Mobile devices
 					off();
